@@ -102,4 +102,4 @@ bash "$PTERODACTYL_DIRECTORY/blueprint.sh"
 
 # ================= DONE =================
 echo -e "\n${G}🎉 Blueprint UI Installation Complete!${N}"
-echo -e "${Y}Panel breathe kar raha hai… theme lagao, flex maro 😏${N}"
+echo -e "${Y}The panel is breathing… apply a theme, flex it 😏${N}"
