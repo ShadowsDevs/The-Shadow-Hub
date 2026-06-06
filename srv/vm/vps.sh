@@ -18,7 +18,7 @@ print_box() {
 print_header() {
     clear
     echo -e "\n${C}╔════════════════════════════════════════════════╗${N}"
-    echo -e "${C}║${W}           D E V E L O P M E N T   M E N U          ${C}║${N}"
+    echo -e "${C}║${W}       V P S    D E V E L O P M E N T   M E N U          ${C}║${N}"
     echo -e "${C}╚════════════════════════════════════════════════╝${N}\n"
 }
 
@@ -135,7 +135,7 @@ EOF
         echo -e "${M}════════════════════════════════════════════════${N}\n"
         
         echo -e "${C}📡 Fetching script from GitHub...${N}"
-        bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/vm/vm.sh)
+        bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/vm/vm.sh)
         
         echo -e "\n${M}════════════════════════════════════════════════${N}"
         read -p "↩ Press Enter..."
@@ -151,8 +151,8 @@ EOF
         
         echo -e "${C}📡 Fetching script from GitHub...${N}"
 
-        bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/vm/dd.sh)
-        bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/vm/vm2.sh)
+        bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/vm/dd.sh)
+        bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/vm/vm2.sh)
         
         echo -e "\n${M}════════════════════════════════════════════════${N}"
         read -p "↩ Press Enter..."
@@ -168,7 +168,7 @@ EOF
         
         echo -e "${C}📡 Fetching script from GitHub...${N}"
 
-        bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/vm/proxmox.sh)
+        bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/vm/proxmox.sh)
         
         echo -e "\n${M}════════════════════════════════════════════════${N}"
         read -p "↩ Press Enter..."
@@ -181,7 +181,7 @@ EOF
         echo -e "\n${C}╔════════════════════════════════════════════════╗${N}"
         echo -e "${C}║${R}                 E X I T I N G                  ${C}║${N}"
         echo -e "${C}╚════════════════════════════════════════════════╝${N}\n"
-        echo -e "${Y}👋 Thank you for using the Development Menu!${N}\n"
+        echo -e "${Y}👋 Thank you for using the VPS Development Menu!${N}\n"
         exit 0
         ;;
     
