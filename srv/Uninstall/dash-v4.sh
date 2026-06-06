@@ -16,7 +16,7 @@ read -p "👉 Choose option [1-2]: " ACTION
 if [ "$ACTION" == "1" ]; then
     echo ""
     echo "😌 Install mode selected."
-    bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/panel/Dashboard-v4.sh)
+    bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/panel/Dashboard-v4.sh)
     echo "Nothing to install. Silence is golden ✨"
     echo "Exiting peacefully..."
     exit 0
