@@ -28,7 +28,7 @@ banner(){
     echo -e "${YELLOW}  ███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝    ██║  ██║╚██████╔╝██████╔╝${NC}"
     echo -e "${YELLOW}  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚══╝╚══╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ${NC}"
     echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    echo -e "                      ${WHITE}Mode By - Shadow${NC}"
+    echo -e "                      ${WHITE}Mode By - | ShadowDevs |${NC}"
     echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo
 }
@@ -53,15 +53,15 @@ read -p "Select → " p
 
 case $p in
  1) curl -sSL https://get.featherpanel.com/beta.sh | bash ;;
- 2) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/Uninstall/unPterodactyl.sh) ;;
- 3) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/panel/Jexactyl.sh) ;;
- 4) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/Uninstall/unJexactyl.sh) ;;
- 5) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/Uninstall/unMythicalDash.sh) ;;
- 6) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/Uninstall/dash-v4) ;;
- 7) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/Uninstall/unPaymenter.sh) ;;
- 8) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/Uninstall/unCtrlPanel.sh) ;;
- 9) bash <(curl -s https://raw.githubusercontent.com/yourlink/cpanel.sh) ;;
- 10) bash <(curl -s https://raw.githubusercontent.com/yourlink/t-panel.sh) ;;
+ 2) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/unPterodactyl.sh) ;;
+ 3) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/panel/Jexactyl.sh) ;;
+ 4) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/unJexactyl.sh) ;;
+ 5) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/unMythicalDash.sh) ;;
+ 6) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/dash-v4) ;;
+ 7) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/unPaymenter.sh) ;;
+ 8) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/unCtrlPanel.sh) ;;
+ 9) bash <(curl -s https://raw.githubusercontent.com/soon/cpanel.sh) ;;
+ 10) bash <(curl -s https://raw.githubusercontent.com/soon/t-panel.sh) ;;
  11) break;;
  *) echo -e "${RED}Invalid Option${NC}"; pause;;
 esac
@@ -84,13 +84,13 @@ echo -e "${BLUE}─────────────────────�
 read -p "Select → " t
 
 case $t in
- 1) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/tools/root.sh) ;;
- 2) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/tools/Tailscale.sh) ;;
- 3) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/tools/cf.sh) ;;
- 4) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/tools/SYSTEM.sh) ;;
- 5) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/tools/vps.sh) ;;
- 6) bash <(curl -s https://raw.githubusercontent.com/yourlink/portforward.sh) ;;
- 7) bash <(curl -s https://raw.githubusercontent.com/yourlink/rdp.sh) ;;
+ 1) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/tools/root.sh) ;;
+ 2) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/tools/Tailscale.sh) ;;
+ 3) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/tools/cf.sh) ;;
+ 4) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/tools/SYSTEM.sh) ;;
+ 5) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/tools/vps.sh) ;;
+ 6) bash <(curl -s https://raw.githubusercontent.com/soon/portforward.sh) ;;
+ 7) bash <(curl -s https://raw.githubusercontent.com/soon/rdp.sh) ;;
  8) break;;
  *) echo -e "${RED}Invalid${NC}"; pause;;
 esac
@@ -109,9 +109,9 @@ echo -e "${PURPLE}────────────────────�
 read -p "Select → " th
 
 case $th in
- 1) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAY0/-150/refs/heads/main/thame/blueprint.sh) ;;
- 2) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/thame/chang.sh) ;;
- 3) bash <(curl -s https://raw.githubusercontent.com/yourlink/theme_uninstall.sh) ;;
+ 1) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/thame/blueprint.sh) ;;
+ 2) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/thame/chang.sh) ;;
+ 3) bash <(curl -s https://raw.githubusercontent.com/soon/theme_uninstall.sh) ;;
  4) break;;
  *) echo -e "${RED}Invalid${NC}"; pause;;
 esac
@@ -132,12 +132,12 @@ echo -e "${CYAN}─────────────────────�
 read -p "Select → " c
 
 case $c in
- 1) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/-150/refs/heads/main/tools/vps.sh) ;;
+ 1) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/tools/vps.sh) ;;
  2) panel_menu;;
- 3) bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAY00/-150/refs/heads/main/Uninstall/unwings.sh) ;;
+ 3) bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/Uninstall/unwings.sh) ;;
  4) tools_menu;;
  5) theme_menu;;
- 6) echo -e "${GREEN}Exiting — CODING HUB by Nobita${NC}"; exit;;
+ 6) echo -e "${GREEN}Exiting — SHADOW HUB by ShadowDevs${NC}"; exit;;
  *) echo -e "${RED}Invalid${NC}"; pause;;
 esac
 done
