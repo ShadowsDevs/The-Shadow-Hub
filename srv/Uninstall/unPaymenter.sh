@@ -45,7 +45,7 @@ install_paymenter() {
     echo "⏳ This may take a few minutes..."
     
     # Run the Paymenter install script
-    bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/panel/Payment.sh)
+    bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/panel/Payment.sh)
     
     printf "${GREEN}║                                                              ║\n"
     printf "║${WHITE}          ✅ INSTALLATION PROCESS COMPLETE!              ${GREEN}║\n"
@@ -129,7 +129,7 @@ while true; do
             ;;
         4)
             printf "\n${CYAN}╔════════════════════════════════════════════════════════════╗\n"
-            printf "║${WHITE}                    👋 GOODBYE!                          ${CYAN}║\n"
+            printf "║${WHITE}                    👋 GOODBYE Thanks for using 💻!                          ${CYAN}║\n"
             printf "╚════════════════════════════════════════════════════════════╝${NC}\n\n"
             exit 0
             ;;
