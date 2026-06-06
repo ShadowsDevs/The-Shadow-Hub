@@ -16,7 +16,7 @@ install_ptero() {
     echo "┌──────────────────────────────────────────────┐"
     echo "│        🚀 reviactyl Installation            │"
     echo "└──────────────────────────────────────────────┘${NC}"
-    bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/panel/tool/reviactyl.sh)
+    bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/panel/tool/reviactyl.sh)
     echo -e "${GREEN}✔ Installation Complete${NC}"
     read -p "Press Enter to return..."
 }
@@ -160,9 +160,9 @@ while true; do
 clear
 echo -e "${YELLOW}"
 echo "╔═══════════════════════════════════════════════╗"
-echo "║        🐲 reviactyl CONTROL CENTER           ║"
+echo "║        🐲 REVIACTYL CONTROL CENTER           ║"
 echo "╠═══════════════════════════════════════════════╣"
-echo -e "║ ${GREEN}1) Install Panel${NC}"
+echo -e "║ ${GREEN}1) Install Reviactyl}"
 echo -e "║ ${CYAN}2) Create Panel User${NC}"
 echo -e "║ ${YELLOW}3) Reset Panel${NC}"
 echo -e "║ ${RED}4) uninstall ${NC}"
