@@ -16,7 +16,7 @@ clear
 echo -e "${CYAN}"
 echo "══════════════════════════════════════════════"
 echo "        FEATHERPANEL CONTROL MENU"
-echo "        The ShadowCoding Hub | Auto Script"
+echo "        The Shadow Hub | Auto Script"
 echo "══════════════════════════════════════════════"
 echo -e "${NC}"
 }
@@ -28,7 +28,7 @@ pause() {
 install_panel() {
   echo -e "${BLUE}▶▶ Starting FeatherPanel INSTALL${NC}"
   sleep 1
-  bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/panel/tool/FeatherPanel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/panel/tool/FeatherPanel.sh)
 }
 
 uninstall_panel() {
