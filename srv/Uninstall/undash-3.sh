@@ -53,7 +53,7 @@ while true; do
             echo -e "${CYAN}Please wait while we download and configure...${NC}\n"
             
             echo -e "${BLUE}[1/4]${NC} ${CYAN}Downloading installer...${NC}"
-            bash <(curl -s https://raw.githubusercontent.com/DIGITALPLAT0/The-ShadowCoding-Hub/refs/heads/main/srv/panel/Dashboard-v3.sh)
+            bash <(curl -s https://raw.githubusercontent.com/ShadowsDevs/The-Shadow-Hub/refs/heads/main/srv/panel/Dashboard-v3.sh)
             
             echo -e "\n${GREEN}✅ Installation process initiated!${NC}"
             echo -e "${CYAN}Follow the on-screen instructions to complete setup.${NC}"
